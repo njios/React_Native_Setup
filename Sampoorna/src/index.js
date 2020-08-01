@@ -3,11 +3,11 @@
  */
 
 import React from 'react';
-import {View,Text} from 'react-native';
+import {SimpleText}  from './components/atoms';
 
 const App = () => (
   <View>
-    <Text>Hello World</Text>
+<SimpleText text = "Just a simple text" />
   </View>
 );
 
